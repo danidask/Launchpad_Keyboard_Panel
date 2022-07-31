@@ -29,14 +29,13 @@ Layout,,
 ,"Board name, revision and date in sheets (also in schematic)",OK
 ,,
 Fabrication,,
-,Review gervers with gerber viewer,
-,Polarized components,
-,BOM for assembly house and BOM for us with all components,
+,Review gervers with gerber viewer,OK
+,Polarized components,OK
 ,,
 Documentation,,
-,"generate PDFs of schematic and layout with reference number, include in repo",
-,Update README.md,
-,"Add git tag with revision, commit and upload to repository",
+,"generate PDFs of schematic and layout with reference number, include in repo",OK
+,Update README.md,OK
+,"Add git tag with revision, commit and upload to repository",OK
 ,,
 ,,
 ,Checklist Resources:,

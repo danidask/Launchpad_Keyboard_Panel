@@ -344,13 +344,11 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "1_dask_library_kc6",
-      "1_easyeda_kicad",
-      "easyeda_kicad"
+      "easyeda_kicad",
+      "1_dask_library_kc6"
     ],
     "pinned_symbol_libs": [
       "1_dask_library_kc6",
-      "1_easyeda_kicad",
       "easyeda_kicad"
     ]
   },
