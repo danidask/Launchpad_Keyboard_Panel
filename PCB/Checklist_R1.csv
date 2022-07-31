@@ -1,0 +1,46 @@
+Schematic,,OK: checked NA: Not applicable
+,"Logic voltajes 3.3v 5v, etc",OK
+,Check custom made component pins,OK
+,Estimate total worst case power supply current,
+,Check maximum power dissipation at worst-case operating temperatures,
+,Reset circuit design reliable,NA
+,Pullups on all open collector outputs,NA
+,Microcontroller programmer and debug port,NA
+,Bypass caps on every power supply chip,NA
+,Reversed diodes,NA
+,"UART lines TX to RX, RX to TX",NA
+,All components have reference and value,OK
+,Net labels connect to something (kicak ERC does not check this),OK
+,"ERC: Unconnected lines, ...",OK
+,,
+Layout,,
+,All footprints according to BOM,OK
+,Are power traces big enough ? (4),
+,Mounting holes,OK
+,Check fix positions (components physically align with something),OK
+,Check component density in both sides with 3D view,OK
+,No component collide into external elements like enclosure parts,OK
+,Check Planes,OK
+,"DRC (Unused vias, traces ...)",OK
+,Silkscreen component references are visible and oriented the same way,OK
+,Silkscreen polarized components have clear marks (edit footprint),OK
+,Silkscreen pins functions and other notes,OK
+,"Board name, revision and Logo on silkscreen",OK
+,"Board name, revision and date in sheets (also in schematic)",OK
+,,
+Fabrication,,
+,Review gervers with gerber viewer,
+,Polarized components,
+,BOM for assembly house and BOM for us with all components,
+,,
+Documentation,,
+,"generate PDFs of schematic and layout with reference number, include in repo",
+,Update README.md,
+,"Add git tag with revision, commit and upload to repository",
+,,
+,,
+,Checklist Resources:,
+1,http://aqdi.com/articles/electronics-design-checklist-3/,
+2,http://aqdi.com/wordpress/PCBChecklistLive.htm,
+3,https://www.volersystems.com/design-tips/91-pcb-layout-checklist/,
+4,https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-pcb-trace-width,
