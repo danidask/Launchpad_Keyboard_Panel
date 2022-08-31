@@ -32,3 +32,10 @@ LCSC parts are inside PCB\jlcpcb\assembly (to be assembly by jlcpcb or sourced f
 - 12x Keycaps for Kailh choc, https://a.aliexpress.com/_uGXK51 (transparent-choc)
 - 1x SSD1306 38x12mm OLED Display, https://a.aliexpress.com/_vNfBEr
 - 1x RaspberryPi Pico, https://www.raspberrypi.com/products/raspberry-pi-pico/
+
+# TODO
+
+- Cover vias with soldermask
+- Add diodes or limit resistors to keyboard matrix
+- Power planes for 3.3v and 5v
+- all pots (R1, R2, R3) swap GND and 3,3
